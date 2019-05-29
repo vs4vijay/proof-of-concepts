@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chirp PoC</title>
+	<script src="https://public.chirp.io/wasm/latest/chirp-connect.js"></script>
+    <script defer src="js/app2.js"></script>
+</head>
+<body>
+
+	<div>
+		<div>
+			<span>
+				CHRIP : <textarea name="data_to_send" id="data_to_send"></textarea>
+			</span>
+			<span>
+				<button id="send_data" onClick="sendData()"> Send Data </button>
+			</span>
+		</div>
+
+		<br>
+		<br>
+
+		<div>
+			<span>
+				<button id="receive_data" onClick="receiveData()"> Receive Data </button>
+			</span>
+		</div>
+		<div>
+			<span> Data Received: </span>
+			<div id="received_data"></div>
+		</div>
+	</div>
+
+</body>
+</html>
