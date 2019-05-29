@@ -66,3 +66,5 @@ typings/
 .venv
 
 __pycache__
+
+.idea
