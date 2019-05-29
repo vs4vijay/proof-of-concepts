@@ -16,7 +16,11 @@ app.get('/base64/:data', function(req, res) {
 
 	const imageBuffer = new Buffer(convertedData, 'base64');
 	fs.writeFileSync('converted.jpg', imageBuffer);
-    res.send(imageBuffer);
+    // res.send(imageBuffer);
+
+    // res.writeHead(200, {'Content-Type': 'image/gif' });
+    res.type('image/gif')
+    res.end(imageBuffer, 'binary');
 });
 
 app.listen(PORT, () => {
