@@ -1,0 +1,11 @@
+{
+  "ENCODING": "ascii",
+  
+  "SEPARATOR": ",",
+  "PLACEHOLDER": "_",
+
+  "PREFIX": "0",
+  "PREFIX_REQUIRED": 4,
+
+  "HASH_SIZE_LIMIT" : 10
+}
