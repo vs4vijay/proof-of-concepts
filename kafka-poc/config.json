@@ -1,0 +1,6 @@
+{
+    "KAFKA_BROKERS": [ "ark-03.srvs.cloudkafka.com:9094", "ark-02.srvs.cloudkafka.com:9094", "ark-01.srvs.cloudkafka.com:9094" ],
+    "KAFKA_USERNAME": "",
+    "KAFKA_PASSWORD": "",
+    "KAFKA_TOPIC": "failed_orders"
+}
